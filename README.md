@@ -1,7 +1,7 @@
 # 🛒 Smart Inventory Optimization System
 
 ## PL/SQL Practicum – AUCA
-**Student:** RUREBWAYIRE AMPOZE Ariella 
+**Student:** RUREBWAYIRE AMPOZE Ariella
 **ID:** [27640]
 
 ---
@@ -22,25 +22,38 @@ Many businesses struggle with **inaccurate stock records**, **delayed restocking
 ---
 
 ## 📁 Repository Structure
-* **/docs/** (ERD, BPMN, dictionary)
+* **/docs/** ([View ERD/BPMN/Dictionary](<INSERT_DOCS_LINK_HERE>))
 * **/sql/** (DDL, DML, procedures, functions, triggers)
 * **/screenshots/** (ERD, sample data, audits)
-* **/presentation/** (10-slide PPTX)
+* **/presentation/** ([View Presentation](<INSERT_PRESENTATION_LINK_HERE>))
 
-## 🚀 Quick Start Instructions
+## 🚀 Quick Start Instructions (Execution Order)
 1.  Connect as **INV\_ADMIN** in SQL Developer
 2.  Run scripts in this order:
-    * `02_create_tables.sql`
-    * `03_insert_data.sql`
-    * `04_procedures.sql`
-    * `05_functions.sql`
-    * `06_packages.sql`
-    * `07_triggers.sql`
-    * `20_restriction_and_audit.sql`
-3.  Test using **analytics queries** and **trigger tests**
+    * [**Tables** - `02_create_tables.sql`](<INSERT_LINK_TO_02_CREATE_TABLES_SQL>)
+    * [**Data** - `03_insert_data.sql`](<INSERT_LINK_TO_03_INSERT_DATA_SQL>)
+    * [**Procedures** - `04_procedures.sql`](<INSERT_LINK_TO_04_PROCEDURES_SQL>)
+    * [**Functions** - `05_functions.sql`](<INSERT_LINK_TO_05_FUNCTIONS_SQL>)
+    * [**Packages** - `06_packages.sql`](<INSERT_LINK_TO_06_PACKAGES_SQL>)
+    * [**Triggers** - `07_triggers.sql`](<INSERT_LINK_TO_07_TRIGGERS_SQL>)
+    * [**Audit/Rules** - `20_restriction_and_audit.sql`](<INSERT_LINK_TO_20_RESTRICTION_AND_AUDIT_SQL>)
+3.  Test using analytics queries and trigger tests
+
+---
+
+## 🧪 Testing and Verification
+The system's core functionality and business rules are verified using the following test cases:
+
+* **Stock Level Accuracy:** [Test Script for Trigger Validation](<INSERT_LINK_TO_TEST_STOCK_LEVEL_SCRIPT>) - Test stock level updates automatically reflect transactions.
+* **Reorder Logic:** [Test Script for Reorder Procedure](<INSERT_LINK_TO_TEST_REORDER_PROCEDURE_SCRIPT>) - Verify the system correctly generates orders when stock falls below the reorder point.
+* **Weekday/Holiday Constraint:** [Test Script for Business Rule Enforcement](<INSERT_LINK_TO_TEST_CONSTRAINT_SCRIPT>) - Attempt to process an order on a restricted day to verify the rule violation is enforced and logged.
+* **Audit Trail:** [Query for Audit Log Validation](<INSERT_LINK_TO_AUDIT_LOG_QUERY>) - Confirm all attempted rule violations are successfully logged in the `AUDIT_LOG` table.
+* **Analytics:** [Sample BI Queries](<INSERT_LINK_TO_ANALYTICS_QUERIES>) - Run sample queries to generate KPI data (e.g., Inventory turnover).
+
+---
 
 ## 🖼️ Required Screenshots
-* **ER diagram**
+* ER diagram
 * Database structure
 * Sample table data
 * Procedure/trigger editor
@@ -48,11 +61,13 @@ Many businesses struggle with **inaccurate stock records**, **delayed restocking
 * Audit log records
 
 ## 📝 Documentation Included
-* ERD + BPMN
-* Data dictionary
-* Normalization notes
-* BI design
-* Logical data model
+* [ERD + BPMN](<INSERT_LINK_TO_ERD_FILE>)
+* [BPMN](<INSERT_LINK_TO_BPMN_FILE>)
+* [PHASE II](<INSERT_LINK_TO_PHASE_II_FILE>)
+* [PHASE III](<INSERT_LINK_TO_PHASE_III_FILE>)
+* [Data dictionary](<INSERT_LINK_TO_DATA_DICTIONARY_FILE>)
+* [BI design](<INSERT_LINK_TO_BI_DESIGN_FILE>)
+* [Logical data model](<INSERT_LINK_TO_LOGICAL_DATA_MODEL_FILE>)
 
 ---
 
@@ -71,5 +86,5 @@ Many businesses struggle with **inaccurate stock records**, **delayed restocking
 
 ---
 
-## Conclusion
+## ✅ Conclusion
 This system improves **stock accuracy**, automates key operations, strengthens security through **auditing**, and provides **BI insights** for better decisions.
