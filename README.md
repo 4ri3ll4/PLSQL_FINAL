@@ -1,6 +1,6 @@
 # 🛒 Smart Inventory Optimization System
 
-## PL/SQL Practicum – AUCA
+## PL/SQL FINAL EXAM – AUCA
 **Student:** RUREBWAYIRE AMPOZE Ariella
 **ID:** [27640]
 
@@ -61,9 +61,9 @@ The system's core functionality and business rules are verified using the follow
 ## 📝 Documentation Included
 * ![ERD](screenshots/SIOS_ERD.png)
 * ![BPMN](screenshots/bpmn_diagram.png)
-* ![PHASE II](docs/Phase II.pdf)
-* ![PHASE III](docs/Phase III.pdf)
-* ![Data dictionary](docs/Data Dictionary.pdf)
+* ![PHASE II](docs/PhaseII.pdf)
+* ![PHASE III](docs/PhaseIII.md)
+* ![Data dictionary](docs/data_dictionary.md)
 * ![BI design](<INSERT_LINK_TO_BI_DESIGN_FILE>)
 
 ---
