@@ -30,11 +30,11 @@ Many businesses struggle with **inaccurate stock records**, **delayed restocking
 ## 🚀 Quick Start Instructions (Execution Order)
 1.  Connect as **INV\_ADMIN** in SQL Developer
 2.  Run scripts in this order:
-    * **Tables & Sequences** - [Creating Tables and Sequences](sql/01_create_tables_and_sequences.sql)
-    * **Sample Data** - [Inserting Sample Data](sql/02_insert_sample_data.sql)
-    * **Package Specification** - [Package Inventory Specification](sql/10_pkg_inventory_spec.sql)
-    * **Package Body** -[Package Body](sql/11_pkg_inventory_body.sql)
-    * **Audit/Rules** -[Restrictions and Audit](sql/20_restriction_and_audit.sql)
+    * **Tables & Sequences:**[Creating Tables and Sequences](sql/01_create_tables_and_sequences.sql)
+    * **Sample Data:** [Inserting Sample Data](sql/02_insert_sample_data.sql)
+    * **Package Specification:** [Package Inventory Specification](sql/10_pkg_inventory_spec.sql)
+    * **Package Body:** [Package Body](sql/11_pkg_inventory_body.sql)
+    * **Audit/Rules:** [Restrictions and Audit](sql/20_restriction_and_audit.sql)
 3.  Test using the verification scripts below.
 
 ---
@@ -59,11 +59,11 @@ The system's core functionality and business rules are verified using the follow
 * Audit log records
 
 ## 📝 Documentation Included
-* ![**ERD**](screenshots/SIOS_ERD.png)
-* ![**BPMN**](screenshots/bpmn_diagram.png)
-* ![**PHASE II**](docs/PhaseII.pdf)
-* ![**PHASE III**](docs/PhaseIII.md)
-* ![**Data dictionary**](docs/data_dictionary.md) 
+* **ERD:**![erd](screenshots/SIOS_ERD.png)
+* **BPMN:** ![bpmn](screenshots/bpmn_diagram.png)
+* **PHASE II:**[PhaseII](docs/PhaseII.pdf)
+* **PHASE III:**[PhaseIII](docs/PhaseIII.md)
+* **Data dictionary:** [Data Dictionary](docs/data_dictionary.md) 
 
 | Table | Column | Type | Constraints | Purpose |
 | :--- | :--- | :--- | :--- | :--- |
