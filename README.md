@@ -30,11 +30,11 @@ Many businesses struggle with **inaccurate stock records**, **delayed restocking
 ## 🚀 Quick Start Instructions (Execution Order)
 1.  Connect as **INV\_ADMIN** in SQL Developer
 2.  Run scripts in this order:
-    * ![**Tables & Sequences** - `01_create_tables_and_sequences.sql`](sql/01_create_tables_and_sequences.sql)
-    * ![**Sample Data** - `02_insert_sample_data.sql`](sql/02_insert_sample_data.sql)
-    * ![**Package Specification** - `10_pkg_inventory_spec.sql`](sql/10_pkg_inventory_spec.sql)
-    * ![**Package Body** - `11_pkg_inventory_body.sql`](sql/11_pkg_inventory_body.sql)
-    * ![**Audit/Rules** - `20_restriction_and_audit.sql`](sql/20_restriction_and_audit.sql)
+    * **Tables & Sequences** - [Creating Tables and Sequences](sql/01_create_tables_and_sequences.sql)
+    * **Sample Data** - [Inserting Sample Data](sql/02_insert_sample_data.sql)
+    * **Package Specification** - [Package Inventory Specification](sql/10_pkg_inventory_spec.sql)
+    * **Package Body** -[Package Body](sql/11_pkg_inventory_body.sql)
+    * **Audit/Rules** -[Restrictions and Audit](sql/20_restriction_and_audit.sql)
 3.  Test using the verification scripts below.
 
 ---
