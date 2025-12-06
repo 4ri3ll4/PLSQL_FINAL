@@ -22,10 +22,10 @@ Many businesses struggle with **inaccurate stock records**, **delayed restocking
 ---
 
 ## 📁 Repository Structure
-* **/docs/** ([View ERD/BPMN/Dictionary](<INSERT_DOCS_LINK_HERE>))
-* **/sql/** (DDL, DML, procedures, functions, triggers)
-* **/screenshots/** (ERD, sample data, audits)
-* **/presentation/** ([View Presentation](<INSERT_PRESENTATION_LINK_HERE>))
+* **/docs/** 
+* **/sql/** 
+* **/screenshots/** 
+* **/presentation/**
 
 ## 🚀 Quick Start Instructions (Execution Order)
 1.  Connect as **INV\_ADMIN** in SQL Developer
