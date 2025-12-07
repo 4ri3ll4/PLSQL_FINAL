@@ -45,18 +45,9 @@ The system's core functionality and business rules are verified using the follow
 * **Core Logic Test Cases:** [Verification Queries](sql/03_test_queries.sql) - Run to test procedures/functions, basic stock updates, and primary business logic.
 * **Constraint/Rule Enforcement:** [Audit and Restriction Script](sql/20_restriction_and_audit.sql) - **Critical Test** to verify that weekday/holiday restrictions are enforced and audit logs are correctly generated.
 * **Analytics Validation:** [Analytics Examples](sql/12_analytics_examples.sql) - Run to confirm data aggregation and BI readiness for calculating KPIs.
-* **Audit Trail Review:** [Query for Audit Log Validation](<INSERT_LINK_TO_AUDIT_LOG_QUERY>) - Confirm all attempted rule violations are successfully logged in the `AUDIT_LOG` table.
-* **Analytics:** [Sample BI Queries](<INSERT_LINK_TO_ANALYTICS_QUERIES>) - Run sample queries to generate KPI data (e.g., Inventory turnover).
 
 ---
 
-## 🖼️ Required Screenshots
-* ER diagram v
-* Database structure v
-* Sample table data
-* Procedure/trigger editor
-* Test execution results
-* Audit log records
 
 ## 📝 Documentation Included
 * **ERD:**![erd](screenshots/SIOS_ERD.png)
@@ -111,23 +102,17 @@ The system's core functionality and business rules are verified using the follow
 ---
 
 
-
-* ![**BI design**](<INSERT_LINK_TO_BI_DESIGN_FILE>)
-
----
-
 ## 📈 Business Intelligence
 **KPIs supported:**
-* Inventory turnover
 * Stockout rate
 * Supplier performance
 * Sales trends
 * Audit violations
 
-**Dashboards include:**
-* Executive Summary
-* Audit Monitoring
-* Inventory Performance
+**Dashboards :**
+* **Executive Summary:**![Executive Summary](screenshots/executive_summary.png)
+* **Audit Monitoring:**![Audit Monitoring](screenshots/audit_dashboard.png)
+* **Inventory Performance:**![Inventory Performance](screenshots/performance_dashboard.png)
 
 ---
 
