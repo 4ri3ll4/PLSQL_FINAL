@@ -44,6 +44,10 @@ The system's core functionality and business rules are verified using the follow
 
 * **Core Logic Test Cases:** [Verification Queries](sql/03_test_queries.sql) - Run to test procedures/functions, basic stock updates, and primary business logic.
 * **Constraint/Rule Enforcement:** [Audit and Restriction Script](sql/20_restriction_and_audit.sql) - **Critical Test** to verify that weekday/holiday restrictions are enforced and audit logs are correctly generated.
+  **Restrictions/ denials:**
+  ![denials](screenshots/denied_test.png)
+  ![denials](screenshots/denied_test.png)
+  
 * **Analytics Validation:** [Analytics Examples](sql/12_analytics_examples.sql) - Run to confirm data aggregation and BI readiness for calculating KPIs.
 
 ---
