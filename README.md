@@ -54,7 +54,8 @@ The system's core functionality and business rules are verified using the follow
 * **BPMN:** ![bpmn](screenshots/bpmn_diagram.png)
 * **PHASE II:**[PhaseII](docs/PhaseII.pdf)
 * **PHASE III:**[PhaseIII](docs/PhaseIII.md)
-* **Data dictionary:** [Data Dictionary](docs/data_dictionary.md) 
+* **Data dictionary:**[Data Dictionary](docs/data_dictionary.md)
+* **BI Design:**[BI Design](docs/SIOS_BI.pbix)
 
 | Table | Column | Type | Constraints | Purpose |
 | :--- | :--- | :--- | :--- | :--- |
